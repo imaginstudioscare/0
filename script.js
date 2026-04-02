@@ -69,8 +69,8 @@ const scrambleEl = document.getElementById("scramble-text");
 const PHRASES = [
   "Sharp Cuts. Smooth Flow.",
   "Your Moments, Our Magic.",
-  "Motion with Emotion.",
-  "Beyond Basic Editing.",
+  "Craft Stories With Heart.",
+  "Where Creativity Meets Excellence.",
   "Turning Moments Into Masterpieces. ✦"
 ];
 let phraseIdx = 0;
