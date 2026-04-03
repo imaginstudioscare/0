@@ -198,7 +198,7 @@ body {
   overflow-x: hidden;
 }
 
-img, video {
+ video {
   max-width: 100%;
   height: auto;
   display: block;
