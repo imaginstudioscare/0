@@ -122,7 +122,26 @@ body:has(.card:hover) #cursor-ring {
   animation-duration: 20s;
   animation-delay: -3s;
 }
+/*  Mobile adjustments */
 
+@media (max-width: 768px) {
+  .neon-bg::before,
+  .neon-bg::after {
+    width: 80vw;
+    height: 80vw;
+    filter: blur(100px);
+  }
+
+  .neon-bg::before {
+    top: 10%;
+    left: -10%;
+  }
+
+  .neon-bg::after {
+    bottom: 5%;
+    right: -10%;
+  }
+}
 @keyframes aurora-drift {
   0% {
     transform: translate(0, 0) scale(1);
